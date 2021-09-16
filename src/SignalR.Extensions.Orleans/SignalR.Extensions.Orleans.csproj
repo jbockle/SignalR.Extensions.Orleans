@@ -14,19 +14,18 @@
     <PackageIcon>logo.png</PackageIcon>
     <AssemblyVersion>$(PackageVersion)</AssemblyVersion>
     <FileVersion>$(PackageVersion)</FileVersion>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/jbockle/SignalR.Extensions.Orleans</PackageProjectUrl>
     <RepositoryUrl>https://github.com/jbockle/SignalR.Extensions.Orleans</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\assets\logo.png" Link="logo.png" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE.txt" Link="LICENSE.txt" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="3.3.0" />
-    <PackageReference Include="Microsoft.Orleans.Core" Version="3.3.0" />
     <PackageReference Include="Microsoft.Orleans.Runtime.Abstractions" Version="3.3.0" />
     <PackageReference Include="Microsoft.Orleans.CodeGenerator.MSBuild" Version="3.3.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
