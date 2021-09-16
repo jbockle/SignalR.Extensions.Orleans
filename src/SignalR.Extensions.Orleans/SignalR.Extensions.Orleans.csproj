@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="3.3.0" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="3.3.0" />
+    <PackageReference Include="Microsoft.Orleans.Runtime.Abstractions" Version="3.3.0" />
+    <PackageReference Include="Microsoft.Orleans.CodeGenerator.MSBuild" Version="3.3.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

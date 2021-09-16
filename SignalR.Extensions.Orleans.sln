@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Extensions.Orleans", "src\SignalR.Extensions.Orleans\SignalR.Extensions.Orleans.csproj", "{DDBD653C-47A0-4137-8000-3A3C235E36E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0950D91B-CA6A-44C3-9498-92210AA40FF6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Extensions.Orleans.Tests", "tests\SignalR.Extensions.Orleans.Tests\SignalR.Extensions.Orleans.Tests.csproj", "{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E45A27FF-1E4F-4642-A311-29DE497B1348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5B02C91-73D9-4D4C-82BE-B1A3156AD970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{4AB7FD18-EBD4-4505-8DED-BCA2489E77CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApi", "samples\ChatApi\ChatApi.csproj", "{E6BD1711-202C-4254-87F6-634B173EB57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDBD653C-47A0-4137-8000-3A3C235E36E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBD653C-47A0-4137-8000-3A3C235E36E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBD653C-47A0-4137-8000-3A3C235E36E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBD653C-47A0-4137-8000-3A3C235E36E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BD1711-202C-4254-87F6-634B173EB57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BD1711-202C-4254-87F6-634B173EB57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BD1711-202C-4254-87F6-634B173EB57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BD1711-202C-4254-87F6-634B173EB57F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDBD653C-47A0-4137-8000-3A3C235E36E2} = {A5B02C91-73D9-4D4C-82BE-B1A3156AD970}
+		{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8} = {E45A27FF-1E4F-4642-A311-29DE497B1348}
+		{E6BD1711-202C-4254-87F6-634B173EB57F} = {4AB7FD18-EBD4-4505-8DED-BCA2489E77CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A9942DB-18D5-4DEB-8231-D6308BC04547}
+	EndGlobalSection
+EndGlobal

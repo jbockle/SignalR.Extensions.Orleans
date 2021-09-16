@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0090: Use 'new(...)'
+dotnet_diagnostic.IDE0090.severity = none
+
+# CS8610: Nullability of reference types in type of parameter doesn't match overridden member.
+dotnet_diagnostic.CS8610.severity = none
