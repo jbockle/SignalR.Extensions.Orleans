@@ -5,12 +5,13 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Extensions.Orleans", "src\SignalR.Extensions.Orleans\SignalR.Extensions.Orleans.csproj", "{DDBD653C-47A0-4137-8000-3A3C235E36E2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0950D91B-CA6A-44C3-9498-92210AA40FF6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{0950D91B-CA6A-44C3-9498-92210AA40FF6}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Extensions.Orleans.Tests", "tests\SignalR.Extensions.Orleans.Tests\SignalR.Extensions.Orleans.Tests.csproj", "{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Extensions.Orleans.Tests", "tests\SignalR.Extensions.Orleans.Tests\SignalR.Extensions.Orleans.Tests.csproj", "{AFB929A1-6DB2-4D94-A15A-A76B8D7177F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E45A27FF-1E4F-4642-A311-29DE497B1348}"
 EndProject
