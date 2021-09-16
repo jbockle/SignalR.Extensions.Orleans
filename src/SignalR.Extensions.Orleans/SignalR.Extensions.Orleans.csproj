@@ -6,6 +6,23 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Authors>jbockle</Authors>
+    <Description>A SignalR backend for projects using Microsoft Orleans</Description>
+    <PackageTags>orleans signalr realtime real-time websockets</PackageTags>
+    <PackageVersion>0.1.0</PackageVersion>
+    <PackageIcon>logo.png</PackageIcon>
+    <AssemblyVersion>$(PackageVersion)</AssemblyVersion>
+    <FileVersion>$(PackageVersion)</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jbockle/SignalR.Extensions.Orleans</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jbockle/SignalR.Extensions.Orleans</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\logo.png" Link="logo.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="3.3.0" />
