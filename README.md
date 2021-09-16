@@ -12,6 +12,8 @@ A SignalR backend for projects using Microsoft Orleans.
 
 ## Installation
 
+![Nuget](https://img.shields.io/nuget/v/SignalR.Extensions.Orleans?style=for-the-badge)
+
 Reference the package `SignalR.Extensions.Orleans` to your standalone cluster, client, and/or co-hosted projects.
 
 `Install-Package SignalR.Extensions.Orleans` or `dotnet add package SignalR.Extensions.Orleans`
