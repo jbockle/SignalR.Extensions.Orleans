@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Orleans.TestingHost;
 
@@ -38,6 +39,12 @@ namespace SignalR.Extensions.Orleans.Tests.Fixtures
                 services.AddSingleton(_cluster.Client);
                 services.AddSingleton(_cluster.GrainFactory);
             });
+        }
+
+        protected override IHostBuilder CreateHostBuilder()
+        {
+            return Host.CreateDefaultBuilder()
+                .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<ChatApiStartup>());
         }
     }
 }
