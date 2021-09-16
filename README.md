@@ -1,6 +1,6 @@
 # SignalR.Extensions.Orleans
 
-<img align="left" src="assets/logo.png" style="width:150px">
+<img align="left" src="https://raw.githubusercontent.com/jbockle/SignalR.Extensions.Orleans/main/assets/logo.png" style="width:150px">
 
 A SignalR backend for projects using Microsoft Orleans.
 
